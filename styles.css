@@ -2,6 +2,11 @@
 table, th, td {
 	border: 1px solid black;
 	text-align:center;
+	/* width: 100%; */
+}
+tr>td>table {
+  display: inline-table;
+  width: 100%;
 }
 
 .lastTableTD {
